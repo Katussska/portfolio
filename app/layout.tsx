@@ -1,9 +1,19 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Scheherazade_New, Cousine } from 'next/font/google';
 import './globals.css';
 import { ReactNode } from 'react';
 
-const inter = Inter({ subsets: ['latin'] });
+const scheherazadeNew = Scheherazade_New({
+  subsets: ['latin'],
+  weight: ['600'],
+  variable: '--font-heading',
+});
+
+const cousine = Cousine({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-body',
+});
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,8 +26,8 @@ export default function RootLayout({
   children: ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${scheherazadeNew.variable} ${cousine.variable}`}>
+      <body>{children}</body>
     </html>
   );
 }
