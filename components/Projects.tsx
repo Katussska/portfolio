@@ -80,6 +80,7 @@ const Projects = () => {
     {
       title: 'MovieHub',
       description:
+        'Has small bug. For start click on MovieHub logo.\n' +
         'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Pellentesque ipsum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Vivamus luctus egestas leo.',
       badges: ['Javascript', 'CSS', 'HTML'],
       screenshots: {
