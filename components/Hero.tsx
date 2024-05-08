@@ -63,7 +63,7 @@ const Hero = () => {
       <div className="container flex w-full flex-row justify-around">
         <HeroList
           title="Skills"
-          items={['React', 'Typescript', 'Tailwind', 'C++', 'Spring']}
+          items={['React', 'Typescript', 'Tailwind', 'Spring', 'C++']}
         />
         <HeroList title="Tools" items={['GitHub', 'Linux', 'JetBrains']} />
         <HeroList

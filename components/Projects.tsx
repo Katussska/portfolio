@@ -68,20 +68,20 @@ const Projects = () => {
     {
       title: 'MovieHub 2.0',
       description:
-        'Very good very good project, very nice code, good quality code not like shit c# written from india or pakistan. Written using react.js the best frontend framework the world has ever witnessed.',
+        "MovieHub 2.0 is a mobile and web application for discovering movies. After signing up, users can use a range of features, from searching for movies to checking out what's coming soon. They can also read or write reviews to share their thoughts.",
       badges: ['Ionic', 'React', 'Typescript', 'CSS', 'Spring', 'PostgreSQL', 'Docker'],
       screenshots: {
         mobile: '/projects/moviehub20mobile.png',
         desktop: '/projects/moviehub20.png',
       },
-      liveUrl: 'https://moviehub.katussska.dev/',
+      liveUrl: 'https://moviehub.ymir.orexin.cz',
       codeUrl: 'https://github.com/Katussska/MovieHub-2.0',
     },
     {
       title: 'MovieHub',
       description:
-        'Has small bug. For start click on MovieHub logo.\n' +
-        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Pellentesque ipsum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Vivamus luctus egestas leo.',
+        'MovieHub  is a web application for discovering now trending movies. Users can also search for movies  and check their details.' +
+        '\n*Has small bug. For start click on MovieHub logo.*',
       badges: ['Javascript', 'CSS', 'HTML'],
       screenshots: {
         mobile: '',
