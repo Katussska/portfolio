@@ -74,13 +74,13 @@ const Projects = () => {
         mobile: '/projects/moviehub20mobile.png',
         desktop: '/projects/moviehub20.png',
       },
-      liveUrl: 'idk',
+      liveUrl: 'https://moviehub.katussska.dev/',
       codeUrl: 'https://github.com/Katussska/MovieHub-2.0',
     },
     {
       title: 'MovieHub',
       description:
-        'Very good very good project, very nice code, good quality code not like shit c# written from india or pakistan. Written using react.js the best frontend framework the world has ever witnessed.',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Pellentesque ipsum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Vivamus luctus egestas leo.',
       badges: ['Javascript', 'CSS', 'HTML'],
       screenshots: {
         mobile: '',

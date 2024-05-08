@@ -68,11 +68,7 @@ const Hero = () => {
         <HeroList title="Tools" items={['GitHub', 'Linux', 'JetBrains']} />
         <HeroList
           title="Experience"
-          items={[
-            '3+ years as a full-stack developer',
-            'Worked on various web applications',
-            'Passionate about open-source projects',
-          ]}
+          items={['Studies at VSB-TUO Computer Science', 'Nothing else', 'For real']}
         />
       </div>
     </>
