@@ -1,4 +1,16 @@
-export type Technologies = 'React' | 'Java' | 'C++';
+export type Technologies =
+  | 'React'
+  | 'Java'
+  | 'C++'
+  | 'Ionic'
+  | 'Spring'
+  | 'Javascript'
+  | 'HTML'
+  | 'CSS'
+  | 'Django'
+  | 'Typescript'
+  | 'PostgreSQL'
+  | 'Docker';
 
 export type Project = {
   title: string;

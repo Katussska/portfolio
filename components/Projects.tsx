@@ -32,7 +32,7 @@ const ProjectCard = ({
             <h3 className="mb-4">{title}</h3>
             <BadgeList badges={badges} />
             <p className="mb-8 text-justify">{description}</p>
-            <div className="font-body flex flex-row gap-6">
+            <div className="flex flex-row gap-6 font-body">
               <a href={liveUrl}>
                 <button className="bg-text-gradient transform rounded-lg border border-white bg-white px-6 py-2 font-bold text-black transition duration-300 ease-in-out hover:-translate-y-1">
                   Live
@@ -49,7 +49,7 @@ const ProjectCard = ({
             {/*todo: picture for different device sizes*/}
             <picture>
               <img
-                className="hover:scale-140 z-50 rounded-xl duration-300 ease-in-out"
+                className="z-50 rounded-xl duration-300 ease-in-out hover:scale-140"
                 src={screenshots.desktop}
                 alt="MovieHub 2.0"
                 onMouseEnter={() => setBackdropToggle(true)}
@@ -69,9 +69,9 @@ const Projects = () => {
       title: 'MovieHub 2.0',
       description:
         'Very good very good project, very nice code, good quality code not like shit c# written from india or pakistan. Written using react.js the best frontend framework the world has ever witnessed.',
-      badges: ['React'],
+      badges: ['Ionic', 'React', 'Typescript', 'CSS', 'Spring', 'PostgreSQL', 'Docker'],
       screenshots: {
-        mobile: '',
+        mobile: '/projects/moviehub20mobile.png',
         desktop: '/projects/moviehub20.png',
       },
       liveUrl: 'idk',
@@ -81,13 +81,13 @@ const Projects = () => {
       title: 'MovieHub',
       description:
         'Very good very good project, very nice code, good quality code not like shit c# written from india or pakistan. Written using react.js the best frontend framework the world has ever witnessed.',
-      badges: ['React'],
+      badges: ['Javascript', 'CSS', 'HTML'],
       screenshots: {
         mobile: '',
         desktop: '/projects/moviehub.png',
       },
-      liveUrl: 'idk',
-      codeUrl: 'https://github.com/Katussska/MovieHub-2.0',
+      liveUrl: 'https://katussska.github.io/MovieHub/',
+      codeUrl: 'https://github.com/Katussska/MovieHub',
     },
   ];
 

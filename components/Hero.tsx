@@ -39,18 +39,20 @@ const Hero = () => {
         <div className="absolute inset-0 z-10 h-full w-full bg-gradient-to-t from-black"></div>
         <div className="container z-20 flex items-center justify-between">
           <div className="w-7/12">
-            <div>
-              <h1 className="d:text-7xl relative mb-8 text-left text-4xl font-bold lg:text-6xl">
-                Kateřina Baierová
+            <div className="mx-8">
+              <h1 className="d:text-7xl relative mb-8 ml-8 text-left text-4xl font-bold lg:text-6xl">
+                Katuš Baierová
               </h1>
-              <p className="mb-8 text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut
-                beatae, corporis cumque eaque enim esse est hic illum, libero molestiae
-                optio possimus quae rem repudiandae sunt, tempora temporibus veritatis!
+              <p className="ml-8 text-justify">
+                Hi, I'm Katussska, currently in my second year of undergraduate studies,
+                pursuing a Bachelor's degree in Computer Science at VŠB - Technical
+                University of Ostrava. Although I started my programming journey in
+                college, I've developed a strong interest in web development and aspire to
+                specialize in this field in the future.
               </p>
             </div>
           </div>
-          <div className="w-4/12">
+          <div className="mr-10 w-1/4">
             <img className="rounded-full" src="/avatar.jpg" alt="avatar" />
           </div>
         </div>
@@ -58,8 +60,9 @@ const Hero = () => {
       <div className="container flex w-full flex-row justify-around">
         <HeroList
           title="Skills"
-          items={['JavaScript', 'JavaScript', 'JavaScript', 'JavaScript']}
+          items={['React', 'Typescript', 'Tailwind', 'C++', 'Spring']}
         />
+        <HeroList title="Tools" items={['GitHub', 'Linux', 'JetBrains']} />
         <HeroList
           title="Experience"
           items={[
