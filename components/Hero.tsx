@@ -47,11 +47,11 @@ const Hero = () => {
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 Hi, I'm Katussska, currently in my second year of undergraduate studies,
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                pursuing a Bachelor's degree in Computer Science at VŠB - Technical
-                University of Ostrava. Although I started my programming journey in
+                &nbsp;pursuing a Bachelor's degree in Computer Science at VŠB - Technical
+                &nbsp;University of Ostrava. Although I started my programming journey in
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                college, I've developed a strong interest in web development and aspire to
-                specialize in this field in the future.
+                &nbsp;college, I've developed a strong interest in web development and
+                aspire to &nbsp;specialize in this field in the future.
               </p>
             </div>
           </div>
