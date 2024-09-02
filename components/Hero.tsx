@@ -37,38 +37,40 @@ const Hero = () => {
           />
         </div>
         <div className="absolute inset-0 z-10 h-full w-full bg-gradient-to-t from-black"></div>
-        <div className="container z-20 flex items-center justify-between">
-          <div className="w-7/12">
+        <div className="container z-20 flex flex-col-reverse items-center justify-between md:flex-row">
+          <div className="w-11/12 md:w-7/12">
             <div className="mx-8">
-              <h1 className="d:text-7xl relative mb-8 ml-8 text-left text-4xl font-bold lg:text-6xl">
+              <h1 className="relative mb-8 text-center text-4xl font-bold md:ml-8 md:text-left md:text-6xl lg:text-7xl">
                 Katuš Baierová
               </h1>
-              <p className="ml-8 text-justify">
-                {/* eslint-disable-next-line react/no-unescaped-entities */}
+              <p className="text-justify md:ml-8">
                 Hi, I'm Katussska, currently in my second year of undergraduate studies,
-                {/* eslint-disable-next-line react/no-unescaped-entities */}
-                &nbsp;pursuing a Bachelor's degree in Computer Science at VŠB - Technical
-                &nbsp;University of Ostrava. Although I started my programming journey in
-                {/* eslint-disable-next-line react/no-unescaped-entities */}
-                &nbsp;college, I've developed a strong interest in web development and
-                aspire to &nbsp;specialize in this field in the future.
+                pursuing a Bachelor's degree in Computer Science at VŠB - Technical
+                University of Ostrava. Although I started my programming journey in
+                college, I've developed a strong interest in web development and aspire to
+                specialize in this field in the future.
               </p>
             </div>
           </div>
-          <div className="mr-10 w-1/4">
+          <div className="mb-10 w-1/4 md:mb-0 md:mr-10">
             <img className="rounded-full" src="/avatar.jpg" alt="avatar" />
           </div>
         </div>
       </div>
-      <div className="container flex w-full flex-row justify-around">
+      <div className="container flex w-full flex-col items-center text-center md:flex-row md:items-start md:justify-around md:text-left">
         <HeroList
           title="Skills"
-          items={['React', 'Typescript', 'Tailwind', 'Spring', 'C++']}
+          items={['React', 'Typescript', 'Tailwind', 'Spring Boot', 'C++']}
         />
-        <HeroList title="Tools" items={['GitHub', 'Linux', 'JetBrains']} />
         <HeroList
+          className="mt-10 md:mt-0"
+          title="Tools"
+          items={['GitHub', 'Linux', 'JetBrains']}
+        />
+        <HeroList
+          className="mt-10 md:mt-0"
           title="Experience"
-          items={['Studies at VSB-TUO Computer Science', 'Nothing else', 'For real']}
+          items={['VSB-TUO Computer Science', 'Nothing else', 'Yet']}
         />
       </div>
     </>

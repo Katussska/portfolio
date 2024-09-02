@@ -3,7 +3,7 @@ export type Technologies =
   | 'Java'
   | 'C++'
   | 'Ionic'
-  | 'Spring'
+  | 'Spring Boot'
   | 'Javascript'
   | 'HTML'
   | 'CSS'
