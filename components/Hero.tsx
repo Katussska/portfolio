@@ -44,7 +44,7 @@ const Hero = () => {
                 Katuš Baierová
               </h1>
               <p className="text-justify md:ml-8">
-                Hi, I'm Katussska, currently in my second year of undergraduate studies,
+                Hi, I'm Katussska, currently in my third year of undergraduate studies,
                 pursuing a Bachelor's degree in Computer Science at VŠB - Technical
                 University of Ostrava. Although I started my programming journey in
                 college, I've developed a strong interest in web development and aspire to

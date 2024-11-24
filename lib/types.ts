@@ -7,9 +7,12 @@ export type Technologies =
   | 'Javascript'
   | 'HTML'
   | 'CSS'
+  | 'Tailwind'
   | 'Django'
   | 'Typescript'
+  | 'Supabase'
   | 'PostgreSQL'
+  | 'AI'
   | 'Docker';
 
 export type Project = {

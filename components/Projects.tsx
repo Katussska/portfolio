@@ -3,7 +3,7 @@
 import { BackgroundGradient } from '@/components/ui';
 import { Project } from '@/lib/types';
 import BadgeList from '@/components/BadgeList';
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 const ProjectCard = ({
   title,
@@ -41,8 +41,9 @@ const ProjectCard = ({
           </div>
           <div className="md:w-8/12">
             <picture>
+              <source srcSet={screenshots.mobile} media="(max-width: 768px)" />
               <img
-                className="z-50 rounded-xl duration-300 ease-in-out hover:scale-140"
+                className="z-50 rounded-xl duration-300 ease-in-out hover:scale-110"
                 src={screenshots.desktop}
                 alt="Showcase"
                 onMouseEnter={() => setBackdropToggle(true)}
@@ -58,6 +59,18 @@ const ProjectCard = ({
 
 const Projects = () => {
   const projects: Array<Project> = [
+    {
+      title: 'Cognify',
+      description:
+        'CURRENTLY IN DEVELOPMENT, NO DEMO. Web app for interacting with multiple LLMs, managing profiles, and group chats. It supports branching conversations, message saving, and token management. Users can view reports, while admins monitor usage and limits.',
+      badges: ['AI', 'React', 'Typescript', 'Tailwind', 'Supabase', 'PostgreSQL'],
+      screenshots: {
+        mobile: '/projects/cognify.png',
+        desktop: '/projects/cognify.png',
+      },
+      liveUrl: 'https://github.com/Katussska/Cognify',
+      codeUrl: 'https://github.com/Katussska/Cognify',
+    },
     {
       title: 'MovieHub 2.0',
       description:
@@ -85,7 +98,7 @@ const Projects = () => {
         '\n*Has small bug. For start click on MovieHub logo.*',
       badges: ['Javascript', 'CSS', 'HTML'],
       screenshots: {
-        mobile: '',
+        mobile: '/projects/moviehub.png',
         desktop: '/projects/moviehub.png',
       },
       liveUrl: 'https://katussska.github.io/MovieHub/',
