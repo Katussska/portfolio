@@ -108,7 +108,7 @@ const Projects = () => {
       title: '4ocean replica',
       description:
         'This project aims to replicate the www.4ocean.com web for educational purposes. Working links: Home, Impact, Subscriptions, Profile, Reset password, Create account.',
-      badges: ['HTML', 'CSS', 'Javascript'],
+      badges: ['HTML', 'CSS'],
       screenshots: {
         mobile: '/projects/4ocean.png',
         desktop: '/projects/4ocean.png',
