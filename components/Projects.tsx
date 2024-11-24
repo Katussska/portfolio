@@ -104,6 +104,18 @@ const Projects = () => {
       liveUrl: 'https://katussska.github.io/MovieHub/',
       codeUrl: 'https://github.com/Katussska/MovieHub',
     },
+    {
+      title: '4ocean replica',
+      description:
+        'This project aims to replicate the www.4ocean.com web for educational purposes. Working links: Home, Impact, Subscriptions, Profile, Reset password, Create account.',
+      badges: ['HTML', 'CSS', 'Javascript'],
+      screenshots: {
+        mobile: '/projects/4ocean.png',
+        desktop: '/projects/4ocean.png',
+      },
+      liveUrl: 'https://katussska.github.io/4ocean/',
+      codeUrl: 'https://github.com/Katussska/4ocean',
+    },
   ];
 
   return (
