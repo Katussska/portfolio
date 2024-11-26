@@ -62,10 +62,10 @@ const Projects = () => {
     {
       title: 'Cognify',
       description:
-        'CURRENTLY IN DEVELOPMENT, NO DEMO. Web app for interacting with multiple LLMs, managing profiles, and group chats. It supports branching conversations, message saving, and token management. Users can view reports, while admins monitor usage and limits.',
+        'CURRENTLY IN DEVELOPMENT, NO DEMO. Web app for interacting with multiple LLMs, managing profiles, and group chats. It supports branching conversations, message and chat saving. Users can view reports, while admins monitor usage and limits.',
       badges: ['AI', 'React', 'Typescript', 'Tailwind', 'Supabase', 'PostgreSQL'],
       screenshots: {
-        mobile: '/projects/cognify.png',
+        mobile: '/projects/cognifymobile.png',
         desktop: '/projects/cognify.png',
       },
       liveUrl: 'https://github.com/Katussska/Cognify',
