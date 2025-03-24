@@ -70,7 +70,7 @@ const Hero = () => {
         <HeroList
           className="mt-10 md:mt-0"
           title="Experience"
-          items={['VSB-TUO Computer Science', 'Nothing else', 'Yet']}
+          items={['K2 atmitec','VSB-TUO Computer Science']}
         />
       </div>
     </>
